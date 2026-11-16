@@ -1,0 +1,14 @@
+{
+  "name": "ff25-private-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone experimental account and lobby API; not compatible with the official Free Fire client by default.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
